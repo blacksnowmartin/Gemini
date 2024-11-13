@@ -1,2 +1,2 @@
-# IN PROGRESS!
-## A Special One For Horoscope Lovers
+# 🟢🟢🟢 IN PROGRESS!
+## A Special One For Horoscope Lovers ♊
