@@ -1,0 +1,43 @@
+.container {
+  width: 800px; /* Adjust as needed */
+  margin: 50px auto;
+  overflow: hidden; /* Important for slider effect */
+  position: relative; /* For positioning buttons */
+}
+
+.slider {
+  width: 300%; /* 3 slides = 300% */
+  transition: transform 0.5s ease-in-out; /* Smooth transitions */
+}
+
+.slide {
+  width: calc(100% / 3); /* Each slide takes 1/3 of slider width */
+  float: left; /* Slides arranged horizontally */
+  position: relative; /* For content positioning */
+}
+
+.slide img {
+  width: 100%;
+  display: block; /* Prevents small space below image */
+}
+.content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.buttons button {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+/* Add any other styles you want here */
